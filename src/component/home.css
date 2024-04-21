@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    gap: 7px;
+    justify-content: space-evenly;
+    /* overflow-x: auto; */
+    /* scrollbar-color: #fdfdfd #f7f4f4; */
+    cursor: pointer;
+    transition: transform 0.4s;
+    /* flex-wrap: nowrap; */
+    margin: 2rem;
+}
+.card {
+  border: 2px solid black;
+  width: 200px;
+  padding: 0.5rem;
+}
+.card a {
+  text-decoration: none;
+  color: black;
+}
+.card img {
+  height: 150px;
+  width: 150px;
+}
+.card h1 {
+  font-size: 0.8rem;
+}
+.card p {
+  font-size: 0.7rem;
+}
